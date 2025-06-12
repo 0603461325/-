@@ -1,0 +1,40 @@
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة السعرات الحرارية</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" type="module"></script>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <h1>حاسبة السعرات الحرارية</h1>
+    </header>
+
+    <main>
+        <section id="food-input">
+            <h2>أدخل معلومات الطعام</h2>
+            <input type="text" id="food-name" placeholder="اسم الطعام">
+            <input type="number" id="food-quantity" placeholder="الكمية (بالجرام)">
+            <button id="add-food">إضافة</button>
+        </section>
+
+        <section id="food-list">
+            <h2>قائمة الطعام</h2>
+            <ul id="food-items">
+                <!-- عناصر الطعام ستضاف هنا -->
+            </ul>
+            <p id="total-calories">السعرات الحرارية الإجمالية: 0</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>حقوق الطبع والنشر © 2024 حاسبة السعرات الحرارية</p>
+    </footer>
+</body>
+
+</html>
